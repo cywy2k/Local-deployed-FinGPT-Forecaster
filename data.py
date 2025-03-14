@@ -19,11 +19,9 @@ from indices import *
 from prompt import get_all_prompts,get_infos
 
 
-finnhub_client = finnhub.Client(api_key="csq6g49r01qj9q8nblf0csq6g49r01qj9q8nblfg")
-# client = OpenAI(api_key=os.environ.get("da68ebf74ac8424aa2a62297446f88df"))
+finnhub_client = finnhub.Client(api_key="")
 base_url = "https://api.deepseek.com/v1"
-api_key = "sk-609223082bcb499191b490a865d07fe0"
-## 我的：sk-dc40901ce1f24aed8513fa622b1d9cd6
+api_key = ""
 client = OpenAI(api_key=api_key, base_url=base_url)
 
 

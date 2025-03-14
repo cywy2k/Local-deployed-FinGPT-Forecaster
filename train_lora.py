@@ -27,7 +27,7 @@ from peft import (
 )
 
 # Replace with your own api_key and project name
-os.environ['WANDB_API_KEY'] = '32a646baa8029842e4acab5c6ce1b1ae28da16ca'    # TODO: Replace with your environment variable
+os.environ['WANDB_API_KEY'] = ''    # TODO: Replace with your environment variable
 os.environ['WANDB_PROJECT'] = 'fingpt-forecaster'
 MODEL_NAME = parse_model_name('llama2', False)
 DEFAULT_tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=False)

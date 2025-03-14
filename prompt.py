@@ -8,7 +8,7 @@ from openai import OpenAI
 
 from indices import *
 
-finnhub_client = finnhub.Client(api_key="csq6g49r01qj9q8nblf0csq6g49r01qj9q8nblfg")
+finnhub_client = finnhub.Client(api_key="")
 
 
 def get_company_prompt(symbol):
